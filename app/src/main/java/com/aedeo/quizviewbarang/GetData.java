@@ -28,7 +28,7 @@ public class GetData extends AsyncTask<String, Integer, String> {
         String data = "";
 
         try {
-            data = getUrl("http://192.168.1.11/project/mobile/quiz2/viewbarang.php");
+            data = getUrl("http://172.16.34.206/project/mobile/quiz2/viewbarang.php");
 
             JSONObject json = new JSONObject(data);
             JSONArray array = json.getJSONArray("list");
